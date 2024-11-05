@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../scripts/guesshandler.js" defer></script>
+    <title>Word Guesser!</title>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-container">
+            <h1>Word Guesser!</h1>
+            <p id="provide-message"></p>
+            <p id="wip-word"></p>
+            <p class="remaining-guesses">You have <span>8</span> guesses remaining.</p>
+            <ul id="already-guessed"></ul>
+            <form id="form-guess">
+                <label id="type-letter">Type a letter...</label>
+                <input id="input-letter" name="letter" type="text">
+                <div>
+                    <button id="button-guess">Take Guess!</button>
+                </div>
+            </form>
+            <button id="button-restart" class="hidden">Restart!</button>
+        </div>
+    </div>
+</body>
+
+</html>
